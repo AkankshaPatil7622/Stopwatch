@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="result"></h1>
+    <button onclick="add()">add</button>
+    <button onclick="sub()">sub</button>
+
+    <script>
+        let count = 0;
+        function add(){
+            count+=1;
+            document.getElementById("result").innerHTML = count;
+        }
+
+        function sub(){
+            count-=1;
+            document.getElementById("result").innerHTML = count;
+
+        }
+    </script>
+</body>
+</html>
